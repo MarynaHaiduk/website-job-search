@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 
 
-class Main extends Component {
+class Search extends Component {
 
   render() {
-      const divStyle = {
+      const searchStyle = {
         color: 'blue',
-        margin: 100,
+        margin: 120,
         marginBottom: 30,
       };
 
     return (
-        <div style={divStyle} className="search-form">
+
+        <div style={searchStyle} className="search-form">
           <form method="get">
             <div className="form-row">
               <div className="col-7">
@@ -35,4 +36,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Search;

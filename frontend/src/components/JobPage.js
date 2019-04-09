@@ -5,7 +5,7 @@ class JobPage extends Component {
   render() {
     return (
             <div className="">
-                <p>Copyright</p>
+                <p>JobPage</p>
             </div>
     );
   }

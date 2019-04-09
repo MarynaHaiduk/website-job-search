@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 
+
 const itemsStyle = {
-        listStyleType: 'none'
+        listStyleType: 'none',
       };
 
-class Category extends Component {
+const listJobsStyle = {
+        textAlign: 'left',
+        marginRight: "100px",
+        flex: 3,
+      };
+
+class ListJobs extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -34,7 +41,7 @@ class Category extends Component {
 
       else {
           return (
-              <div>
+              <div style={listJobsStyle}>
                   {items.map(item =>(
                       <ul key={item.id}>
                           <li style={ itemsStyle }> <a href="#">{item.title}</a></li>
@@ -49,5 +56,4 @@ class Category extends Component {
   }
 }
 
-
-export default Category;
+export default ListJobs;

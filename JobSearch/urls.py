@@ -7,4 +7,3 @@ urlpatterns = [
     path('', include("job_api.urls")),
     path('admin/', admin.site.urls),
 ]
-

@@ -20,7 +20,7 @@ def home(request):
 #
 #
 # def categories(request, category):
-#     category_info = Category.objects.get(id=category)
+#     category_info = ListJobs.objects.get(id=category)
 #     data = Job.objects.get(category=category)
 #     context = {
 #         'category_info': category_info,
