@@ -1,12 +1,12 @@
 ### Install for project
 
-# Django
+##### Django
 pip install django
 
-# pip
+##### pip
 install pip
 
-# djangorestframework
+##### djangorestframework
 pip install django djangorestframework
 
 
@@ -21,13 +21,13 @@ npm install --save react-router
 npm install --save react-router-dom
 pip install django-cors-headers
 
-### Serve API on localhost:8000
+##### Serve API on localhost:8000
 python JobSearch/manage.py runserver
 
-### Run webpack (from root)
+##### Run webpack (from root)
 npm run dev
 
-### Build for production
+##### Build for production
 npm run build
 
 npm install axios --save
